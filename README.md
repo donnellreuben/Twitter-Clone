@@ -17,9 +17,11 @@ Hey there! This app is a twitter clone that has these functions:
 # Log of work
 
 ## Current
--User can log in and register (devise)
+<ul>
+  <li>User can log in and register (devise)</li>
 -User can create a tweet
 -User can set their own username
+<ul>
 
 
 ## End 
