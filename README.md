@@ -23,9 +23,11 @@ Hey there! This app is a twitter clone that has these functions:
 
 
 ## End 
+<ul>
 -User can log in and register (devise)
 -User can create a tweet
 -User can set their own username
 -User can follow other users
 -User has a feed that displays followed users activities and posts
 -Search Function
+</ul>
