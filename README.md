@@ -19,17 +19,17 @@ Hey there! This app is a twitter clone that has these functions:
 ## Current
 <ul>
   <li>User can log in and register (devise)</li>
--User can create a tweet
--User can set their own username
+  <li>User can create a tweet</li>
+  <li>User can set their own username</li>
 <ul>
 
 
 ## End 
 <ul>
--User can log in and register (devise)
--User can create a tweet
--User can set their own username
--User can follow other users
--User has a feed that displays followed users activities and posts
--Search Function
+  <li>User can log in and register (devise)</li>
+  <li>User can create a tweet</li>
+  <li>User can set their own username</li>
+  <li>User can follow other users</li>
+  <li>User has a feed that displays followed users activities and posts</li>
+  <li>Search Function</li>
 </ul>
