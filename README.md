@@ -21,6 +21,7 @@ Hey there! This app is a twitter clone that has these functions:
   <li>User can log in and register (devise)</li>
   <li>User can create a tweet</li>
   <li>User can set their own username</li>
+  <li>User gets a flash notice after login/signup and after setting their username, including (if username field is blank)</li>
 </ul>
 
 
