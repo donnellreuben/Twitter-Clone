@@ -23,6 +23,7 @@ Hey there! This app is a twitter clone that has these functions:
 
 
 ## End 
+-User gets a flash notice after login/signup
 -User can log in and register (devise)
 -User can create a tweet
 -User can set their own username
