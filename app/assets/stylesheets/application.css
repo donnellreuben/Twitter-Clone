@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+/* SideBar Icons 👀*/
+ .icon {
+    transition: transform 0.2s ease-in-out;
+ }
+
+ .icon:hover {
+    /* background-color: #D3D3D3; Twitter changes background color on hover but i like my transition */ 
+    transform: scale(1.5);
+ }
+
+.twitter-logo {
+    transition: transform 0.4s ease-in-out;
+}
+
+ .twitter-logo:hover {
+    transform: scale(1.5) rotate(360deg);
+ }
