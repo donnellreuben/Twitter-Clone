@@ -34,3 +34,9 @@ Hey there! This app is a twitter clone that has these functions:
 ```
   bundle install 😄
 ```
+
+
+### Attributes 
+<ul>
+  <li>Home icons created by Dave Gandy - Flaticon</li>
+</ul>
