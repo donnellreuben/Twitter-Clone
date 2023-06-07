@@ -24,10 +24,18 @@
     transform: scale(1.5);
  }
 
-.twitter-logo {
-    transition: transform 0.4s ease-in-out;
+
+/* Twitter Logo 👀*/
+.twitter-logo:hover {
+    transform: scale(1.5);
 }
 
- .twitter-logo:hover {
-    transform: scale(1.5) rotate(360deg);
- }
+ .twitter-logo {
+    animation: fly 3s infinite;
+}
+
+/* Made the Twitter Logo Fly */
+@keyframes fly {
+    50% {
+        transform: translateY(12px) rotate(6deg);}
+};
