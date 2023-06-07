@@ -17,7 +17,8 @@ Hey there! This app is a twitter clone that has these functions:
   <li>User can create a tweet</li>
   <li>User can set their own username</li>
   <li>User gets a flash notice after login/signup and after setting their username, including (if username field is blank and if user tries to go to url (3000/dashboard) manually they get re-directed to login route as well as a flash notice.</li>
-  <li>First, need to make dashboard page into three columns using bootstrap</li>
+  <li>Made dashboard page into three columns using bootstrap</li>
+  <li>Added Twitter Home icon to navbar and resized it</li>
 </ul>
 
 ## End 
@@ -38,5 +39,11 @@ Hey there! This app is a twitter clone that has these functions:
 
 ### Attributes 
 <ul>
-  <li>Home icons created by Dave Gandy - Flaticon</li>
+  <li>Navbar/Sidebar icons sourced from Twitter.com</li>
+</ul>
+
+
+### Notes
+<ul>  
+  <li>Official Twiiter blue rgb(29, 155, 240)</li>
 </ul>
