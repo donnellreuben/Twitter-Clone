@@ -1,24 +1,31 @@
-# README
+# Twitter Clone
+Made with ❤️ using 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,ruby,rails" />
+  </a>
 
-Things you may want to cover:
+### Description
+Hey there! This app is a twitter clone that has these functions:
 
-* Ruby version
+### Install Gems
 
-* System dependencies
+```
+  bundle install 😄
+```
 
-* Configuration
+# Log of work
 
-* Database creation
+## Current
+-User can log in and register (devise)
+-User can create a tweet
+-User can set their own username
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## End 
+-User can log in and register (devise)
+-User can create a tweet
+-User can set their own username
+-User can follow other users
+-User has a feed that displays followed users activities and posts
+-Search Function
