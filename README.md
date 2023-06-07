@@ -17,16 +17,18 @@ Hey there! This app is a twitter clone that has these functions:
 # Log of work
 
 ## Current
--User can log in and register (devise)
--User can create a tweet
--User can set their own username
+<ul>
+  <li>User can log in and register (devise)</li>
+  <li>User can create a tweet</li>
+  <li>User can set their own username</li>
+  <li>User gets a flash notice after login/signup and after setting their username, including (if username field is blank)</li>
+</ul>
 
 
 ## End 
--User gets a flash notice after login/signup
--User can log in and register (devise)
--User can create a tweet
--User can set their own username
--User can follow other users
--User has a feed that displays followed users activities and posts
--Search Function
+<ul>
+<p>All of the Current plus:</p>
+  <li>User can follow other users</li>
+  <li>User has a feed that displays followed users activities and posts</li>
+  <li>Search Function</li>
+</ul>
