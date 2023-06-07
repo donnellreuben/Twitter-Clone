@@ -8,11 +8,6 @@ Made with ❤️ using
 ### Description
 Hey there! This app is a twitter clone that has these functions:
 
-### Install Gems
-
-```
-  bundle install 😄
-```
 
 # Log of work
 
@@ -21,9 +16,9 @@ Hey there! This app is a twitter clone that has these functions:
   <li>User can log in and register (devise)</li>
   <li>User can create a tweet</li>
   <li>User can set their own username</li>
-  <li>User gets a flash notice after login/signup and after setting their username, including (if username field is blank)</li>
+  <li>User gets a flash notice after login/signup and after setting their username, including (if username field is blank and if user tries to go to url (3000/dashboard) manually they get re-directed to login route as well as a flash notice.</li>
+  <li>First, need to make dashboard page into three columns using bootstrap</li>
 </ul>
-
 
 ## End 
 <ul>
@@ -32,3 +27,10 @@ Hey there! This app is a twitter clone that has these functions:
   <li>User has a feed that displays followed users activities and posts</li>
   <li>Search Function</li>
 </ul>
+
+
+### Install Gems
+
+```
+  bundle install 😄
+```
