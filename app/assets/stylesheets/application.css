@@ -29,6 +29,14 @@
     50% {
         transform: translateY(12px) rotate(6deg);
     }
+};
+
+/* Logout Button */
+.btn {
+    text-decoration: none !important;
 }
 
-;
+
+.twitter-logout {
+    text-decoration: none;
+}
