@@ -1,6 +1,9 @@
 class TweetsController < ApplicationController
  before_action :authenticate_user!
- 
+  
+  def index
+  end
+
   def create
     tweet = Tweet.new(tweet_params.merge(user: current_user ))
 
