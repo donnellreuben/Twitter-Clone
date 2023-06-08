@@ -51,7 +51,7 @@
     <div class="col-7 ms-5">    
     <!-- tweet form -->
       <%= form_with model: Tweet.new, url: tweets_path, method: :post, local: true do |f| %>
-        <%= f.text_area :body, placeholder: "What is happening?!", class: "form-control border-0 w-100"%>
+        <%= f.text_area :body, placeholder: "What is happening?!", class: "form-control w-100 tweet-input"%>
         <%= f.submit %>
       <% end %>   
     <!-- tweets -->  
