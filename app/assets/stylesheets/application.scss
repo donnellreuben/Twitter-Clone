@@ -37,3 +37,8 @@
     border: 0;
     
 }
+
+.form-control:focus {
+    border-color: inherit;
+    box-shadow: none;
+}
