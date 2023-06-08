@@ -22,6 +22,8 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Added Search, Bell, Messages, Profile and Compose tweet icons to navbar and resized them.</li>
   <li>Added Hover effect to icons using pure CSS.</li>
   <li>Added Animation to twitter logo to make it look like its flying infinitely using pure CSS.</li>
+  <li>Removed default underline for logout link button and added a hover underline effect to it.</li>
+  <li>Placed the logout link button under the left column (outside of it).</li>
 </ul>
 
 ## End 
