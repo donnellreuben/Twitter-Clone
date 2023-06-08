@@ -6,3 +6,9 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+// Friendly Message
+console.log("Hello Fellow Developer 🙋🏾‍♂️, whatcha doing here? ");
+
+
+// TWEET FORM

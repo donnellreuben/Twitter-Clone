@@ -45,10 +45,14 @@
         box-shadow: none;
     }
 
+// title 
 a.page-title {
     font-weight: bold;
 }
 
+// tweet button
 .tweet-button {
     --bs-btn-font-weight: 600;
-}
+    background-color: rgb(29, 155, 240);
+    box-shadow: none;
+};
