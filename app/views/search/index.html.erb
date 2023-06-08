@@ -66,23 +66,4 @@
 <!-- COLUMNS fin -->
 
 <!-- TWEETS MODAL -->
-<div class="modal fade" id="compose-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Compose Tweet</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="mb-3">
-          <label for="tweet-text" class="col-form-label">Tweet text:</label>
-          <textarea class="form-control" id="tweet-text"></textarea>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Tweet</button>
-      </div>
-    </div>
-  </div>
-</div>
+<%= render "tweets/index"  %>
