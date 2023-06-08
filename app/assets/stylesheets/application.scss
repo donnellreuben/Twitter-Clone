@@ -35,10 +35,16 @@
 /* TWEET FORM */
 .tweet-input {
     border: 0;
+    font-size: 1.4rem;
     
 }
 
-.form-control:focus {
-    border-color: inherit;
-    box-shadow: none;
+    // For removing border outline when usr clicks in text field
+    .form-control:focus {
+        border-color: inherit;
+        box-shadow: none;
+    }
+
+a.page-title {
+    font-weight: bold;
 }
