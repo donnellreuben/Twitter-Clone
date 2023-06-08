@@ -6,3 +6,10 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+// Friendly Message
+console.log("What are you doing here?! you sneaky developer.. 🥚");
+console.log("-Donnell Reuben");
+
+
+// TWEET FORM
