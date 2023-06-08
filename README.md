@@ -24,20 +24,19 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Added Animation to twitter logo to make it look like its flying infinitely using pure CSS.</li>
   <li>Removed default underline for logout link button and added a hover underline effect to it.</li>
   <li>Placed the logout link button under the left column (outside of it).</li>
-  <li>Added all pages and styled them accordingly as well as icon fill depending on which page is selected.</li>
+  <li>Added all pages. Depending on page user is on, Navbar icon tied to current page will be either bold or filled in black</li> 
   <li>Added a placeholder "What is happening?! to tweet form.</li>
   <li>Changed application.css to .scss</li>
   <li>Removed tweet form box outline when clicked in box</li>
   <li>Added titles to most pages, removed underline, made bold. They are clickable and route to current page</li>
   <li>Customized Tweet button, rounded corners and positioned to left as well as bold the font and changed from "Create Tweet to Tweet"</li>
   <li>Added an easter egg, they will be labeled: "🥚" </li>
-  <li>Added Tweet modal, and works when user clicks on blue feather button no matter which page, user clicks off of modal to make it disappear. Not functional yet.</li>
+  <li>Added Tweet modal, and works when user clicks on blue feather button no matter which page, user clicks off of modal to make it disappear. Needs to work like the tweet form works yet.</li>
 </ul>
 
 ## End 
 <ul>
 <p>All of the Current plus:</p>
-  <li>Depending on page user is on, Navbar icon tied to current page will be either bold or filled in black</li> 
   <li>User can follow other users.</li>
   <li>User has a feed that displays followed users activities and posts.</li>
   <li>Search Function.</li>
