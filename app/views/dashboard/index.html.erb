@@ -31,9 +31,9 @@
       <span class="d-flex align-items-center fs-4 mb-4 ms-4"><a href="/profile" class="<%# icon only%>" ><svg class="icon" viewBox="0 0 25 25" width="32px" height="32px"><g><path d="M5.651 19h12.698c-.337-1.8-1.023-3.21-1.945-4.19C15.318 13.65 13.838 13 12 13s-3.317.65-4.404 1.81c-.922.98-1.608 2.39-1.945 4.19zm.486-5.56C7.627 11.85 9.648 11 12 11s4.373.85 5.863 2.44c1.477 1.58 2.366 3.8 2.632 6.46l.11 1.1H3.395l.11-1.1c.266-2.66 1.155-4.88 2.632-6.46zM12 4c-1.105 0-2 .9-2 2s.895 2 2 2 2-.9 2-2-.895-2-2-2zM8 6c0-2.21 1.791-4 4-4s4 1.79 4 4-1.791 4-4 4-4-1.79-4-4z"></path></g></svg></span>
       </a> 
 
-      <!-- Compose Tweet Button -->
-      <a href="<%# ADD ROUTE %>" class="d-flex align-items-center fs-4 mb-3 ms-3">
-        <div style="display: inline-block; background-color: rgb(29, 155, 240); border-radius: 100%; padding: 5px;" class="icon">
+       <!-- Compose Tweet Button -->
+      <a href="#" class="d-flex align-items-center fs-4 mb-3 ms-3" data-bs-toggle="modal" data-bs-target="#compose-modal">
+        <div style="display: inline-block; background-color: rgb(29, 155, 240); border-radius: 100%; padding: 5px;" class="icon", id ="compose-tweets">
           <svg viewBox="0 0 26 30" width="35px" height="30px"><g><path d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z" fill="white"></path></g></svg>
         </div>
       </a>
@@ -76,3 +76,26 @@
 <!-- Right Column fin -->
 </div>
 <!-- COLUMNS fin -->
+
+
+<!-- TWEETS MODAL -->
+<div class="modal fade" id="compose-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Compose Tweet</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="tweet-text" class="col-form-label">Tweet text:</label>
+          <textarea class="form-control" id="tweet-text"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Tweet</button>
+      </div>
+    </div>
+  </div>
+</div>
