@@ -24,6 +24,7 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Added Animation to twitter logo to make it look like its flying infinitely using pure CSS.</li>
   <li>Removed default underline for logout link button and added a hover underline effect to it.</li>
   <li>Placed the logout link button under the left column (outside of it).</li>
+  <li>Added all pages and styled them accordingly as well as icon fill depending on which page is selected.</li>
 </ul>
 
 ## End 
