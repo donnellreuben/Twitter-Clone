@@ -8,7 +8,8 @@ import HelloController from "./hello_controller"
 application.register("hello", HelloController)
 
 // Friendly Message
-console.log("Hello Fellow Developer 🙋🏾‍♂️, whatcha doing here? ");
+console.log("What are you doing here?! you sneaky developer.. 🥚");
+console.log("-Donnell Reuben");
 
 
 // TWEET FORM
