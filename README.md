@@ -30,7 +30,7 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Removed tweet form box outline when clicked in box</li>
   <li>Added titles to most pages, removed underline, made bold. They are clickable and route to current page</li>
   <li>Customized Tweet button, rounded corners and positioned to left as well as bold the font and changed from "Create Tweet to Tweet"</li>
-  <li>Added an easter egg, they will be labeled: "🥚"<li>
+  <li>Added an easter egg, they will be labeled: 🥚<li>
 </ul>
 
 ## End 
