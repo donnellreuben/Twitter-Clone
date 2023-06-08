@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :tweets, only: :create
 
   get "dashboard" => "dashboard#index"
+  get "search" => "search#index"
   
   resources :usernames, only: [:new, :update]
 end
