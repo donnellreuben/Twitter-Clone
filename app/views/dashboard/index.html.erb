@@ -52,14 +52,10 @@
       <div class = "mb-3">
         <%= link_to "Home", root_path, class: "fs-4 link-offset-2 link-underline link-underline-opacity-0 page-title", style: "color: black" %> 
       </div>
+      
     <!-- tweet form -->
-      <%= form_with model: Tweet.new, url: tweets_path, method: :post, local: true do |f| %>
-        <%= f.text_area :body, placeholder: "What is happening?!", class: "form-control w-100 tweet-input"%>
-      <div class="text-end">
-        <%= f.submit "Tweet", class: "btn btn-primary rounded-pill tweet-button" %>
-      </div>
+    <%= render "tweets/form"  %> 
 
-      <% end %>   
     <!-- tweets -->  
       <ul>
         <% Tweet.find_each do |tweet| %>
