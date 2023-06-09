@@ -54,12 +54,16 @@
       </div>
       
     <!-- tweet form -->
-    <%= render "tweets/form"  %> 
+    <div class="mb-4">
+      <%= render "tweets/form"  %>     
+    </div>
+
 
     <!-- tweets -->  
     <% Tweet.order(created_at: :desc).each do |tweet| %>
          <%= render "tweets/tweet", tweet: tweet  %> 
     <% end %>
+
 
     </div>
  <!-- Center Column fin -->
