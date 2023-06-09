@@ -7,13 +7,15 @@
         <button type="button" class="btn-close mx-0" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="mb-3">
-          <label for="tweet-text" class="col-form-label"></label>
-          <textarea class="form-control form-control-lg border-0" id="tweet-text" placeholder="What is happening?!" style="font-size: 1.3rem;"></textarea>
+      
+      <!-- tweet form -->
+        <%= form_with model: Tweet.new, url: tweets_path, method: :post, local: true do |f| %>
+          <%= f.text_area :body, placeholder: "What is happening?!", class: "form-control w-100 tweet-input"%>
+        <div class="text-end">
+          <%= f.submit "Tweet", class: "btn btn-primary rounded-pill tweet-button" %>
         </div>
-      </div>
-      <div class="modal-footer border border-0">
-        <button type="button" class="btn btn-primary">Tweet</button>
+
+        <% end %> 
       </div>
     </div>
   </div>
