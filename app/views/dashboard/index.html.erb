@@ -57,7 +57,7 @@
     <%= render "tweets/form"  %> 
 
     <!-- tweets -->  
-    <% Tweet.find_each do |tweet| %>
+    <% Tweet.order(created_at: :desc).each do |tweet| %>
          <%= render "tweets/tweet", tweet: tweet  %> 
     <% end %>
 
