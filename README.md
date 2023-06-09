@@ -33,6 +33,7 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Added an easter egg, they will be labeled: "🥚" </li>
   <li>Added Tweet modal, and works when user clicks on blue feather button no matter which page, user clicks off of modal to make it disappear. Needs to work like the tweet form works yet.</li>
   <li>Added Tweet form code to modal, so now its fully functional, as well as styling adjustments such as removing borders and moving the close button (x) to the left.</li>
+  <li>Gave individual Tweets a hover effect, adjusted spacing, ordered them in descending order and display when the tweet was created. If tweet was created more than a day then I render the date (June 6, for example).</li>
 </ul>
 
 ## End 
