@@ -9,13 +9,7 @@
       <div class="modal-body">
       
       <!-- tweet form -->
-        <%= form_with model: Tweet.new, url: tweets_path, method: :post, local: true do |f| %>
-          <%= f.text_area :body, placeholder: "What is happening?!", class: "form-control w-100 tweet-input"%>
-        <div class="text-end">
-          <%= f.submit "Tweet", class: "btn btn-primary rounded-pill tweet-button" %>
-        </div>
-
-        <% end %> 
+      <%= render "tweets/form"  %>
       </div>
     </div>
   </div>
