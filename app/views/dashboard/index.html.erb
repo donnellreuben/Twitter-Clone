@@ -57,11 +57,9 @@
     <%= render "tweets/form"  %> 
 
     <!-- tweets -->  
-    <ul>
     <% Tweet.find_each do |tweet| %>
          <%= render "tweets/tweet", tweet: tweet  %> 
     <% end %>
-    </ul>
 
     </div>
  <!-- Center Column fin -->
