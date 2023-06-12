@@ -38,6 +38,7 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Adjusted spacing under username and tweet text as well as muted username/handle and timestamp.</li>
   <li>User can add display name. Display names appear bold on the feed just like on twitter.</li>
   <li>Updated all buttons to be round.</li>
+  <li>Added settings page to navbar. User can edit username, displayname and profile picture.</li>
 </ul>
 
 ## End 
