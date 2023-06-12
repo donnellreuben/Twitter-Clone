@@ -36,6 +36,8 @@ Hey there! This app is a twitter clone that has these functions:
   <li>Gave individual Tweets a hover effect, adjusted spacing, ordered them in descending order and display when the tweet was created. If tweet was created more than a day then I render the date (June 6, for example).</li>
   <li>User can upload profile picture (avatar) and is displayed on feed for each tweet.</li>
   <li>Adjusted spacing under username and tweet text as well as muted username/handle and timestamp.</li>
+  <li>User can add display name. Display names appear bold on the feed just like on twitter.</li>
+  <li>Updated all buttons to be round.</li>
 </ul>
 
 ## End 
