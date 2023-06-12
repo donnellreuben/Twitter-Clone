@@ -4,12 +4,14 @@
   </div>
  
   <div class="flex-grow-1 ms-3">
-    <p>@<%= tweet.user.username %> ·
+    <p class= "text-muted">@<%= tweet.user.username %> ·
+    <span class="text-muted small">
       <% if tweet.created_at < 1.day.ago %>
         <%= tweet.created_at.strftime("%B %e") %>
       <% else %>
         <%= distance_of_time_in_words(Time.now, tweet.created_at, include_seconds: false, abbreviated: true) %>
       <% end %>
+    </span>
     </p>
     <p class="mb-0"><%= tweet.body %></p>
   </div>
