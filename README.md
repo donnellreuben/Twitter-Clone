@@ -57,6 +57,7 @@ Hey there! This app is a twitter clone that has these functions:
 ### Attributes 
 <ul>
   <li>Navbar/Sidebar icons sourced from Twitter.com</li>
+  <li>Gear icon from Freepik via Flaticon</li>
 </ul>
 
 
