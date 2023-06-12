@@ -22,6 +22,6 @@ def update
   private
 
   def username_params
-    params.require(:user).permit(:username, :avatar)
+    params.require(:user).permit(:username, :avatar, :display_name)
   end
 end
