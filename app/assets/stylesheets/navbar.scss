@@ -1,7 +1,8 @@
 /* NAVIGATION BAR */
 .side-navbar {
-    min-height: 700px;
+    min-height: 2000px;
     max-height: 5000px; 
+    width: 100px; 
 }; 
 
 
@@ -21,6 +22,10 @@
     transform: scale(1.5);
 }
 
+#gear-icon:hover {
+    transform: rotate(180deg);
+    transition: transform 0.7s ease;
+}
 
 /* Twitter Logo 👀*/
 .twitter-logo:hover {

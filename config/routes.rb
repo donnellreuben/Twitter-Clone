@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get "messages" => "messages#index"
   get "profile" => "profile#index"
   get "tweets" => "tweets#index"
+  get "settings" => "settings#index"
   
   resources :usernames, only: [:new, :update]
 end
