@@ -54,15 +54,41 @@
     <!-- Sidebar Navbar fin -->
   <!-- Left Column fin -->
 
-  <!-- Center Column -->
-    <div class="col-7 ms-5">    
-    <!-- search form -->
-      <%= form_with url: search_path, method: :get, local: true do |f| %>
-        <%= f.text_field :query, placeholder: "Search Twitter" %>
-        <%= f.submit "Search" %>
-      <% end %>
-    </div>
- <!-- Center Column fin -->
+<!-- Center Column -->
+    <div class="col-7 ms-5">
+      <!-- search form -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 w-100">
+            <%= form_with url: search_path, method: :get, local: true, class: "w-100 d-flex align-items-center" do |f| %>
+              <%= f.text_field :query, placeholder: "Search Twitter", class: "w-100 form-control me-2 search-bar" %>
+              <%= f.submit "Search", class: "btn btn-primary" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+
+  <!-- search results -->
+  <div class= "container">
+    <% if @tweets.present? %>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 w-100">
+            <h3>Search Results for "<%= @query %>"</h3>
+            <% @tweets.each do |tweet| %>
+              <div class="card my-2">
+                <div class="card-body">
+                  <%= tweet.content %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+<!-- Center Column fin -->
 
 <!-- Right Column -->
     <div class="col">
