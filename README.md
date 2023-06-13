@@ -61,6 +61,7 @@ Hey there! This app is a twitter clone that has these functions:
 <ul>
   <li>Navbar/Sidebar icons sourced from Twitter.com</li>
   <li>Gear icon from Freepik via Flaticon</li>
+  <li>Back arrow icom from Ilham Fitrotul Hayat via Flaticon</li>
 </ul>
 
 

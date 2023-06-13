@@ -55,10 +55,30 @@
   <!-- Left Column fin -->
 
   <!-- Center Column -->
-    <div class="col-7 ms-5">    
-    <!-- profile form -->
-      <%= link_to "Profile", profile_path, class: "fs-4 link-offset-2 link-underline link-underline-opacity-0 page-title", style: "color: black" %>
+    <div class="col-7 ms-5">
+      <div class="mb-3">
+        <%= link_to :back, class: "fs-5 text-decoration-none text-black fw-semibold" do %>
+          <%= image_tag "back-arrow.png", size: "18x18", class: "me-4 back-arrow" %>
+          <span style= "position: relative; top: 2px;"><%= current_user.display_name %></span>
+        <% end %>
     </div>
+    <!-- PROFILE -->  
+    <div class="d-flex justify-content-between">
+      <div>
+        <% if current_user.avatar.present? %>
+          <%= image_tag current_user.avatar, class: "rounded-circle", size: "133.5x133.5" %>
+        <% else %>
+          <%= image_tag "user.png", class: "rounded-circle", size: "133.5x133.5" %>
+        <% end %>
+      </div>
+      <div>
+          <%= link_to "Edit Profile", "", class: "btn btn-outline-primary btn-outline-twitter rounded-pill" %>   
+      </div>
+    </div> 
+ 
+    
+  
+</div>
  <!-- Center Column fin -->
 
 <!-- Right Column -->
