@@ -68,3 +68,7 @@ Hey there! This app is a twitter clone that has these functions:
 <ul>  
   <li>Official Twiiter blue rgb(29, 155, 240)</li>
 </ul>
+
+<img width="1728" alt="twitter-clone" src="https://github.com/donnellreuben/Twitter-Clone/assets/117698398/976eb928-39dd-46b2-bb91-4f680cdf7256">
+
+
